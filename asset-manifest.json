@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/travel/static/css/main.f703117f.css",
-    "main.js": "/travel/static/js/main.b4fc8fd7.js",
+    "main.css": "/travel/static/css/main.391521ea.css",
+    "main.js": "/travel/static/js/main.0480b69e.js",
     "static/js/787.8a220983.chunk.js": "/travel/static/js/787.8a220983.chunk.js",
     "static/media/maldives.webp": "/travel/static/media/maldives.cadf13796400075f28e0.webp",
     "static/media/logoblue.png": "/travel/static/media/logoblue.1d32a0b09f2a2070d838.png",
     "index.html": "/travel/index.html",
-    "main.f703117f.css.map": "/travel/static/css/main.f703117f.css.map",
-    "main.b4fc8fd7.js.map": "/travel/static/js/main.b4fc8fd7.js.map",
+    "main.391521ea.css.map": "/travel/static/css/main.391521ea.css.map",
+    "main.0480b69e.js.map": "/travel/static/js/main.0480b69e.js.map",
     "787.8a220983.chunk.js.map": "/travel/static/js/787.8a220983.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f703117f.css",
-    "static/js/main.b4fc8fd7.js"
+    "static/css/main.391521ea.css",
+    "static/js/main.0480b69e.js"
   ]
 }
