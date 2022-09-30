@@ -1,0 +1,123 @@
+.card-container {
+    border-top: 2px solid rgba(128, 128, 128, 0.384);
+    padding: 1rem;
+
+    display: flex;
+    gap: .5rem;
+    justify-content: center;
+}
+/* .card-container > * {
+    flex-basis: 50%;
+} */
+.card-image,
+.card-content {
+    padding: .5rem;
+}
+/* .card-image {
+    border: 2px solid blue;
+} */
+.card-content {
+    /* border: 2px solid grey; */
+    width: 700px;
+}
+.card-image img {
+    height :200px;
+    width: 200px;
+    display: block;
+    border-radius: .5rem;
+    object-fit: cover;
+    object-position: center;
+}
+.location-data{
+    /* border: 2px solid green; */
+    display: flex;
+    gap: 1rem;
+}
+.card-content > h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #2B283A;
+}
+.card-content .location-data a {
+    font-size: .8rem;
+}
+.card-content .date {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+    color: #2B283A;
+    padding-block: .5rem;
+}
+.card-content .description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    color: #2B283A;
+}
+
+/* media queries */
+@media (max-width: 556px) {
+    .card-container {
+        gap: .1rem;
+    }
+    .card-image {
+        align-self: center;
+    }
+    /* .card-container > * {
+        flex-basis: 100%;
+    } */
+    /* .card-image {
+        align-self: center;
+    } */
+    .card-image img {
+        height: 150px;
+        width: 150px;
+    }
+    /* .card-content {
+        border: 2px solid rgb(209, 36, 36);
+        width: fit-content;
+    } */
+    .card-content > h1 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .location-data {
+        flex-direction: column;
+        gap: 0rem;
+    }
+}
+@media (max-width: 440px) {
+    .card-image img {
+        /* border: 2px solid red; */
+        height: 180px;
+    }
+}
+@media (max-width: 385px) {
+    .card-container > * {
+        flex-basis: 100%;
+    }
+    .card-image img {
+        /* border: 2px solid red; */
+        width: 130px;
+    }
+}
+@media (max-width: 350px) {
+    .card-image img {
+        /* border: 2px solid red; */
+        height: 250px;
+    }
+}
+@media (max-width: 320px) {
+    .card-container {
+        /* border: 2px solid red; */
+        flex-wrap: wrap;
+    }
+    .card-image img {
+        width: 100%;
+    }
+}
